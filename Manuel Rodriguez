@@ -1,1 +1,89 @@
 # Proyecto.html
+Entero C
+INICIO
+Escriba "DEFINA SU EDAD"
+llamar a Nueva_linea
+Escriba "Cuantos Años tiene"
+llamar a Nueva_Linea
+Lea C
+llamar a Nueva_linea
+si (C> = 90) Entonces
+Escriba "Usted es un ANCIANO"
+sino
+si (C> = 65) y (C <= 89) entonces
+Escriba "usted es de la TERCERA EDAD"
+sino
+si (C> = 60) y (C <= 64) entonces
+Escriba "Usted es ADULTO MAYOR"
+sino
+si (C> = 40) y (C <= 59) Entonces
+Escriba "Usted en ADULTO"
+sino
+si (C> = 18) y (C <= 39) Entonces
+Escriba "Usted es un JOVEN"
+sino
+si (C> = 15) y (C <= 17) Entonces
+Escriba "usted es un ADOLESCENTE"
+sino
+si (C> = 10) y (c <= 14) Entonces
+Escriba "Usted es un NIÑO"
+sino
+si (C <= 9) entonces 
+Escriba "Usted es un BEBE"
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+
+ALETA
+
+
+entero c
+inicio
+escriba "ingresando a cine"
+llamar a Nueva_linea
+escriba "favor presentar cedula"
+lea c
+si c> 17 entonces
+escriba "ingresa pelicula nena"
+sino
+si (c <12) entonces
+escriba "ingresa peliculas bebes"
+sino
+escriba "ingresa pelicula adolescentes"
+fin si
+fin si
+aleta
+
+entero c
+inicio
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba "por favor presente cedula"
+lea c
+si c <18 entonces
+escriba "ingresa a pelliculas de bebes"
+sino 
+escriba "ingresa peliculas de neneas"
+fin si
+aleta
+
+
+real a, b, c
+inicio
+escriba "sumando dos numeros ingresados ​​por defecto"
+llamar nueva_linea
+escriba "ingrese el primer numero"
+lea a
+escriba "ingrese el segundo numero"
+lea b
+c <-a + b 
+escriba "la suma de", a, "mas", b, "es:", c
+llamar nueva_linea 
+escriba "la suma de a que es", a, "mas b que es", b, "es:", c
+
+aleta
