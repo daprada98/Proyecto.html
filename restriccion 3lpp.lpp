@@ -1,0 +1,17 @@
+entero c
+inicio
+escriba " ingresando a cine "
+llamar nueva_linea
+escriba " por favor presente cedula "
+lea c
+si c>17 entonces
+escriba "peliculas de nenas "
+sino 
+si c<12 entonces
+escriba " ingresa peliculas de bebes "
+sino
+escriba "peliculas de adolecentes"
+fin si 
+fin si
+fin
+
