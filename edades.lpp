@@ -1,0 +1,22 @@
+entero c
+inicio
+escriba " verficacion de edad "
+llamar Nueva_linea
+escriba " favor igrese su edad "
+lea c
+si c>90 entonces
+escriba  "anciano"
+sino
+si (c<=90)y (c<=65) entonces
+escriba " tercera edad "
+sino
+si (c<=65) y (>40)
+escriba " adulto mayor "
+sino
+si (c<=40) y (>17) entonces
+escriba "adulto"
+
+fin si 
+fin si
+fin si
+fin
