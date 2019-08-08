@@ -1,1 +1,68 @@
 
+entero c
+inicio
+escriba " verficacion de edad "
+llamar Nueva_linea
+escriba " favor igrese su edad "
+lea c
+si c>90 entonces
+escriba  "anciano"
+sino
+si (c<=90)y (c<=65) entonces
+escriba " tercera edad "
+sino
+si (c<=65) y (>40)
+escriba " adulto mayor "
+sino
+si (c<=40) y (>17) entonces
+escriba "adulto"
+
+fin si 
+fin si
+fin si
+fin
+
+
+entero c
+inicio
+escriba " ingresando a cine "
+llamar Nueva_linea
+escriba " favor presentar cedula "
+lea c
+si c>17 entonces
+escriba " ingresa pelicula nena "
+sino
+si (c<12) entonces
+escriba " ingresa peliculas bebes "
+sino
+escriba " ingresa pelicula adolescentes "
+fin si
+fin si
+fin
+
+
+real a,b,c
+inicio
+escriba "sumando nos numero ingrsados por teclado"
+llamar Nueva_linea
+escriba "ingrese el primer numero "
+lea a
+escriba "ingrese el segundo numero "
+lea b
+c<-a+b
+escriba "la suma de ",  a , " mas ",  b,  " es ", c
+fin
+
+
+entero c
+inicio
+escriba " ingresando a cine "
+llamar Nueva_linea
+escriba " favor presentar cedula "
+lea c
+si c<18 entonces
+escriba "ingresa pelicula bebes "
+sino
+escriba " ingresa pelicula nenas "
+fin si
+fin
