@@ -123,7 +123,7 @@ Escriba "LA SUMA TOTAL ES: ", suma
 Fin
 
 // Cambio los parametros de las lineas NUMERO Y SUMA, por (Lea), que permite al usuario escribir el numero que quiera,
-siempre y cuando sea menor o igual a 10.
+siempre y cuando el (En Lea NUMERO) sea menor o igual a 10.
 
 Entero numero, suma
 INICIO
@@ -141,7 +141,25 @@ llamar Nueva_linea
 Escriba "LA SUMA TOTAL ES: ", suma
 Fin
 
-// 
+// Cambio los parametros del (MIENTRAS Y la suma de NUMERO + 1), para que los rusultados sean los los pares.
+
+Entero numero, suma
+INICIO
+Lea NUMERO
+Lea SUMA
+Mientras (Numero <= 20) Haga
+llamar Nueva_linea
+Escriba Numero
+Suma <- Suma + Numero
+Numero <- Numero + 2
+llamar obtener_caracter
+Escriba " La suma va en: ", Suma
+Fin Mientras 
+llamar Nueva_linea
+Escriba "LA SUMA TOTAL ES: ", suma
+Fin
+
+////
 
 
 
