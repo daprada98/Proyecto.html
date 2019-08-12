@@ -38,7 +38,7 @@ fin si
 fin si
 fin si
 
-ALETA
+Fin
 
 
 entero c
@@ -56,7 +56,7 @@ sino
 escriba "ingresa pelicula adolescentes"
 fin si
 fin si
-aleta
+Fin
 
 entero c
 inicio
@@ -69,7 +69,7 @@ escriba "ingresa a pelliculas de bebes"
 sino 
 escriba "ingresa peliculas de neneas"
 fin si
-aleta
+Fin
 
 
 real a, b, c
@@ -85,6 +85,63 @@ escriba "la suma de", a, "mas", b, "es:", c
 llamar nueva_linea 
 escriba "la suma de a que es", a, "mas b que es", b, "es:", c
 
-aleta
+Fin
+
+// Suma de PRUEBA DE ESCRITORIO
+
+Entero numero, suma
+INICIO
+Numero <- 1
+Suma <- 0
+Mientras (Numero <= 10) Haga
+llamar Nueva_linea
+Escriba Numero
+Suma <- Suma + Numero
+Numero <- Numero + 1
+Escriba " La suma va en: ", Suma
+Fin Mientras 
+llamar Nueva_linea
+Escriba "LA SUMA TOTAL ES: ", suma
+Fin
+
+// Nueva linea que le permite al usuario verificar la PRUBA DE ESCRITORIO una por una. (llamar obtener_caracter)
+
+Entero numero, suma
+INICIO
+Numero <- 1
+Suma <- 0
+Mientras (Numero <= 10) Haga
+llamar Nueva_linea
+Escriba Numero
+Suma <- Suma + Numero
+Numero <- Numero + 1
+llamar obtener_caracter
+Escriba " La suma va en: ", Suma
+Fin Mientras 
+llamar Nueva_linea
+Escriba "LA SUMA TOTAL ES: ", suma
+Fin
+
+// Cambio los parametros de las lineas NUMERO Y SUMA, por (Lea), que permite al usuario escribir el numero que quiera,
+siempre y cuando sea menor o igual a 10.
+
+Entero numero, suma
+INICIO
+Lea NUMERO
+Lea SUMA
+Mientras (Numero <= 10) Haga
+llamar Nueva_linea
+Escriba Numero
+Suma <- Suma + Numero
+Numero <- Numero + 1
+llamar obtener_caracter
+Escriba " La suma va en: ", Suma
+Fin Mientras 
+llamar Nueva_linea
+Escriba "LA SUMA TOTAL ES: ", suma
+Fin
+
+// 
+
 
 
