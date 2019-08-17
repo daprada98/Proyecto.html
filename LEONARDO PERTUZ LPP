@@ -87,3 +87,20 @@ llamar nueva_linea
 escriba "la suma de a que es", a, "mas b que es", b, "es:", c
 
 aleta
+
+Entero numero, suma
+INICIO
+Lea NUMERO
+Lea SUMA
+Mientras (Numero <= 20) Haga
+llamar Nueva_linea
+Escriba Numero
+Suma <- Suma + Numero
+Numero <- Numero + 2
+llamar obtener_caracter
+Escriba " La suma va en: ", Suma
+Fin Mientras 
+llamar Nueva_linea
+Escriba "LA SUMA TOTAL ES: ", suma
+Fin
+
